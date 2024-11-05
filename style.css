@@ -1,0 +1,39 @@
+/* Dark, semi-transparent background for the body */
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Right sidebar fixed to the right side of the screen */
+.right-sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-right: 30px;
+}
+
+/* Flexbox container to center content vertically and horizontally */
+.overlay-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centered modal-style container */
+.centered-div {
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+/* Styling for the modal title */
+.modal-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
